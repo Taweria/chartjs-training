@@ -1,5 +1,10 @@
 var options = {
   chart: {
+    animations: {
+        enabled: true,
+        easing: 'easeinout',
+        speed: 800,
+},
     type: 'bar'
   },
   series: [{
