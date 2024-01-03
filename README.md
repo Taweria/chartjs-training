@@ -1,1 +1,1 @@
-# chartjs-training
+# charts-training
