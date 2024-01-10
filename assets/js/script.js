@@ -63,3 +63,25 @@ var optionsChart3 = {
 var chart3 = new ApexCharts(document.querySelector("#chart3"), optionsChart3);
 
 chart3.render();
+
+var optionsChart4 = {
+  chart: {
+    animations: {
+        enabled: true,
+        easing: 'easeinout',
+        speed: 800,
+},
+    type: 'area'
+  },
+  series: [{
+    name: 'sales',
+    data: [30,40,45,50,49,60,70,91,125]
+  }],
+  xaxis: {
+    categories: [1991,1992,1993,1994,1995,1996,1997, 1998,1999]
+  }
+}
+
+var chart4 = new ApexCharts(document.querySelector("#chart4"), optionsChart4);
+
+chart4.render();
