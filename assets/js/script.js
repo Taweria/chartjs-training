@@ -19,7 +19,7 @@ var optionsChart1 = {
 var chart1 = new ApexCharts(document.querySelector("#chart1"), optionsChart1);
 
 chart1.render();
-
+// ------------------------------------------------------------
 var optionsChart2 = {
   chart: {
     animations: {
@@ -41,7 +41,7 @@ var optionsChart2 = {
 var chart2 = new ApexCharts(document.querySelector("#chart2"), optionsChart2);
 
 chart2.render();
-
+// ------------------------------------------------------------
 var optionsChart3 = {
   chart: {
     animations: {
@@ -63,7 +63,7 @@ var optionsChart3 = {
 var chart3 = new ApexCharts(document.querySelector("#chart3"), optionsChart3);
 
 chart3.render();
-
+// ------------------------------------------------------------
 var optionsChart4 = {
   chart: {
     animations: {
@@ -86,7 +86,7 @@ var chart4 = new ApexCharts(document.querySelector("#chart4"), optionsChart4);
 
 chart4.render();
 
-
+// ------------------------------------------------------------
 var optionsChart5 = {
           series: [
           {
