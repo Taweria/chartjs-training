@@ -91,7 +91,7 @@ var optionsChart5 = {
           series: [
           {
             name: "",
-            data: [200, 330, 548, 740, 880, 990, 1100, 1380],
+            data: [30,40,45,50,49,60,70,91,125],
           },
         ],
           chart: {
@@ -136,7 +136,7 @@ var optionsChart5 = {
           align: 'middle',
         },
         xaxis: {
-          categories: ['Sweets', 'Processed Foods', 'Healthy Fats', 'Meat', 'Beans & Legumes', 'Dairy', 'Fruits & Vegetables', 'Grains'],
+          categories: [1991,1992,1993,1994,1995,1996,1997, 1998,1999],
         },
         legend: {
           show: false,
