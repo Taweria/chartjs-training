@@ -27,7 +27,7 @@ var optionsChart2 = {
         easing: 'easeinout',
         speed: 800,
 },
-    type: 'radar'
+    type: 'radar',
   },
   series: [{
     name: 'sales',
@@ -60,6 +60,6 @@ var optionsChart3 = {
   }
 }
 
-var chart3 = new ApexCharts(document.querySelector("#chart2"), optionsChart3);
+var chart3 = new ApexCharts(document.querySelector("#chart3"), optionsChart3);
 
 chart3.render();
