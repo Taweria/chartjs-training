@@ -149,83 +149,112 @@ var optionsChart5 = {
 // ------------------------------------------------------------
 
 var optionsChart6 = {
-          series: [30,40,45,50,49,60,70],
-          chart: {
-          height: 350,
-          type: 'radialBar',
-        },
-        plotOptions: {
-          radialBar: {
-            dataLabels: {
-              name: {
-                fontSize: '22px',
-              },
-              value: {
-                fontSize: '16px',
-              },
-              total: {
-                show: true,
-                label: 'Total',
-                formatter: function (w) {
-                  return 249
-                }
-              }
-            }
-          }
-        },
-        labels: [1991,1992,1993,1994,1995,1996,1997],
-        };
+  series: [30,40,45,50,49,60,70],
+  chart: {
+  height: 350,
+  type: 'radialBar',
+},
+plotOptions: {
+  radialBar: {
+    dataLabels: {
+      name: {
+        fontSize: '22px',
+      },
+      value: {
+        fontSize: '16px',
+      },
+      total: {
+        show: true,
+        label: 'Total',
+        formatter: function (w) {
+          return 249
+        }
+      }
+    }
+  }
+},
+labels: [1991,1992,1993,1994,1995,1996,1997],
+}
 
-        var chart6 = new ApexCharts(document.querySelector("#chart6"), optionsChart6);
-        chart6.render();
+var chart6 = new ApexCharts(document.querySelector("#chart6"), optionsChart6);
+chart6.render();
 
 // ------------------------------------------------------------
 
-  var optionsChart7 = {
-          series: [30,40,45,50,49,60,70],
-          chart: {
-          width: 380,
-          type: 'pie',
+var optionsChart7 = {
+      series: [30,40,45,50,49,60,70],
+      chart: {
+      width: 380,
+      type: 'pie',
+    },
+    labels: [1991,1992,1993,1994,1995,1996,1997],
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
         },
-        labels: [1991,1992,1993,1994,1995,1996,1997],
-        responsive: [{
-          breakpoint: 480,
-          options: {
-            chart: {
-              width: 200
-            },
-            legend: {
-              position: 'bottom'
-            }
-          }
-        }]
-        };
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+};
 
-        var chart7 = new ApexCharts(document.querySelector("#chart7"), optionsChart7);
-        chart7.render();
+var chart7 = new ApexCharts(document.querySelector("#chart7"), optionsChart7);
+chart7.render();
 
 // ------------------------------------------------------------
 
  var optionsChart8 = {
-          series: [30,40,45,50,49,60,70],
-          chart: {
-          width: 380,
-          type: 'donut',
+      series: [30,40,45,50,49,60,70],
+      chart: {
+      width: 380,
+      type: 'donut',
+    },
+    labels: [1991,1992,1993,1994,1995,1996,1997],
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
         },
-        labels: [1991,1992,1993,1994,1995,1996,1997],
-        responsive: [{
-          breakpoint: 480,
-          options: {
-            chart: {
-              width: 200
-            },
-            legend: {
-              position: 'bottom'
-            }
-          }
-        }]
-        };
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+};
 
-        var chart8 = new ApexCharts(document.querySelector("#chart8"), optionsChart8);
-        chart8.render();
+var chart8 = new ApexCharts(document.querySelector("#chart8"), optionsChart8);
+chart8.render();
       
+// ------------------------------------------------------------
+      
+var optionsChart9 = {
+  series: [30,40,45,50,49,60,70,91,125],
+  chart: {
+  type: 'polarArea',
+},
+labels: [1991,1992,1993,1994,1995,1996,1997, 1998, 1999],
+stroke: {
+  colors: ['#fff']
+},
+fill: {
+  opacity: 0.8
+},
+responsive: [{
+  breakpoint: 480,
+  options: {
+    chart: {
+      width: 200
+    },
+    legend: {
+      position: 'bottom'
+    }
+  }
+}]
+};
+
+var chart9 = new ApexCharts(document.querySelector("#chart9"), optionsChart9);
+chart9.render();
