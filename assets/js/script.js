@@ -145,3 +145,36 @@ var optionsChart5 = {
 
         var chart5 = new ApexCharts(document.querySelector("#chart5"), optionsChart5);
         chart5.render();
+
+// ------------------------------------------------------------
+
+var optionsChart6 = {
+          series: [30,40,45,50,49,60,70],
+          chart: {
+          height: 350,
+          type: 'radialBar',
+        },
+        plotOptions: {
+          radialBar: {
+            dataLabels: {
+              name: {
+                fontSize: '22px',
+              },
+              value: {
+                fontSize: '16px',
+              },
+              total: {
+                show: true,
+                label: 'Total',
+                formatter: function (w) {
+                  return 249
+                }
+              }
+            }
+          }
+        },
+        labels: [1991,1992,1993,1994,1995,1996,1997],
+        };
+
+        var chart6 = new ApexCharts(document.querySelector("#chart6"), optionsChart6);
+        chart6.render();
