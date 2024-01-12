@@ -178,3 +178,54 @@ var optionsChart6 = {
 
         var chart6 = new ApexCharts(document.querySelector("#chart6"), optionsChart6);
         chart6.render();
+
+// ------------------------------------------------------------
+
+  var optionsChart7 = {
+          series: [30,40,45,50,49,60,70],
+          chart: {
+          width: 380,
+          type: 'pie',
+        },
+        labels: [1991,1992,1993,1994,1995,1996,1997],
+        responsive: [{
+          breakpoint: 480,
+          options: {
+            chart: {
+              width: 200
+            },
+            legend: {
+              position: 'bottom'
+            }
+          }
+        }]
+        };
+
+        var chart7 = new ApexCharts(document.querySelector("#chart7"), optionsChart7);
+        chart7.render();
+
+// ------------------------------------------------------------
+
+ var optionsChart8 = {
+          series: [30,40,45,50,49,60,70],
+          chart: {
+          width: 380,
+          type: 'donut',
+        },
+        labels: [1991,1992,1993,1994,1995,1996,1997],
+        responsive: [{
+          breakpoint: 480,
+          options: {
+            chart: {
+              width: 200
+            },
+            legend: {
+              position: 'bottom'
+            }
+          }
+        }]
+        };
+
+        var chart8 = new ApexCharts(document.querySelector("#chart8"), optionsChart8);
+        chart8.render();
+      
